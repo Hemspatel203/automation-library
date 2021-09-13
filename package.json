@@ -1,0 +1,11 @@
+{
+  "name": "@Hemspatel203/my-github-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "hemang.patel <hemang.patel@caseware.com>",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Hemspatel203/my-github-package.git",
+    "type": "git"
+  }
+}
