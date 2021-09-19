@@ -1,1 +1,1 @@
-# my-github-package
+# kp-aut-lib

@@ -1,11 +1,26 @@
 {
-  "name": "@Hemspatel203/my-github-package",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "hemang.patel <hemang.patel@caseware.com>",
-  "license": "MIT",
+  "name": "@hemspatel203/automation-library",
+  "packageManager": "yarn@3.0.2",
   "repository": {
-    "url": "https://github.com/Hemspatel203/my-github-package.git",
+    "url": "https://github.com/hemspatel203/automation-library",
     "type": "git"
+  },
+  "author": "Hemang Patel <hemspatel203@gmail.com>",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "version": "0.0.2",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout 15000"
+  },
+  "dependencies": {
+    "chai": "4.3.4",
+    "chromedriver": "93.0.1",
+    "jshint": "2.13.1",
+    "mocha": "9.1.1",
+    "selenium-webdriver": "4.0.0-rc-1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   }
 }
